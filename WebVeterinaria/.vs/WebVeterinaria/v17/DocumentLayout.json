@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\WebVeterinaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF8695-2EB2-4D2B-A816-2EE32C935863}|WebVeterinaria.csproj|d:\\vet_sistema\\proyecto-veterinaria\\webveterinaria\\controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CF8695-2EB2-4D2B-A816-2EE32C935863}|WebVeterinaria.csproj|solutionrelative:controllers\\mascotacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CF8695-2EB2-4D2B-A816-2EE32C935863}|WebVeterinaria.csproj|d:\\vet_sistema\\proyecto-veterinaria\\webveterinaria\\controllers\\cirugiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CF8695-2EB2-4D2B-A816-2EE32C935863}|WebVeterinaria.csproj|solutionrelative:controllers\\cirugiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEE49C5-81B5-4A6B-B25C-2851CE12AF2C}|..\\vet_domain\\vet_domain.csproj|d:\\vet_sistema\\proyecto-veterinaria\\vet_domain\\dtos\\cirugiadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FEE49C5-81B5-4A6B-B25C-2851CE12AF2C}|..\\vet_domain\\vet_domain.csproj|d:\\vet_sistema\\proyecto-veterinaria\\vet_domain\\models\\cirugia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MascotaController.cs",
+              "DocumentMoniker": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\WebVeterinaria\\Controllers\\MascotaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MascotaController.cs",
+              "ToolTip": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\WebVeterinaria\\Controllers\\MascotaController.cs",
+              "RelativeToolTip": "Controllers\\MascotaController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwG0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T22:21:49.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CirugiaController.cs",
+              "DocumentMoniker": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\WebVeterinaria\\Controllers\\CirugiaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CirugiaController.cs",
+              "ToolTip": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\WebVeterinaria\\Controllers\\CirugiaController.cs",
+              "RelativeToolTip": "Controllers\\CirugiaController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wDIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T21:33:59.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CirugiaDTO.cs",
+              "DocumentMoniker": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\vet_domain\\DTOs\\CirugiaDTO.cs",
+              "RelativeDocumentMoniker": "..\\vet_domain\\DTOs\\CirugiaDTO.cs",
+              "ToolTip": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\vet_domain\\DTOs\\CirugiaDTO.cs",
+              "RelativeToolTip": "..\\vet_domain\\DTOs\\CirugiaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T21:33:33.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cirugia.cs",
+              "DocumentMoniker": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\vet_domain\\Models\\Cirugia.cs",
+              "RelativeDocumentMoniker": "..\\vet_domain\\Models\\Cirugia.cs",
+              "ToolTip": "D:\\Vet_Sistema\\Proyecto-Veterinaria\\vet_domain\\Models\\Cirugia.cs",
+              "RelativeToolTip": "..\\vet_domain\\Models\\Cirugia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T21:32:17.553Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
