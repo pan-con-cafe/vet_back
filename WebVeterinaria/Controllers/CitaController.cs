@@ -39,7 +39,8 @@ namespace WebVeterinaria.Controllers
                     {
                         c.Mascota.IdMascota,
                         c.Mascota.Name,
-                        c.Mascota.Species
+                        c.Mascota.Species,
+                        c.Mascota.Image
                     }
                 })
                 .ToListAsync();
