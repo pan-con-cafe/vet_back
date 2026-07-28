@@ -99,7 +99,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
             "http://localhost:4200",
-            "https://vet-front.onrender.com"
+            "https://veterinaria-huancayo.onrender.com"
         )
         .AllowAnyHeader()
         .AllowAnyMethod();
