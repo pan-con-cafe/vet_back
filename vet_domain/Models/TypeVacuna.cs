@@ -10,6 +10,5 @@ namespace vet_domain.Models
     {
         public int IdTypeVacuna { get; set; }
         public string Type { get; set; } = null!;
-        public ICollection<Vacuna> Vacunas { get; set; } = new List<Vacuna>();
     }
 }
