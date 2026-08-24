@@ -61,7 +61,7 @@ namespace WebVeterinaria.Controllers
                     .ThenInclude(cm => cm.Cliente)
                         .ThenInclude(c => c.Telefonos)
                 .Include(m => m.Vacunas)
-                    .ThenInclude(v => v.TypeVacuna)
+                    //.ThenInclude(v => v.TypeVacuna)
                 .Include(m => m.Desparacitaciones)
                 .Include(m => m.Cirugias)
                 .Include(m => m.Groomings)
@@ -93,7 +93,7 @@ namespace WebVeterinaria.Controllers
                         v.Date,
                         v.Weight,
                         v.Temperature,
-                        Tipo = v.TypeVacuna.Type
+                        v.TypeName
                     }).ToList(),
                     Desparacitaciones = m.Desparacitaciones.Select(d => new
                     {
