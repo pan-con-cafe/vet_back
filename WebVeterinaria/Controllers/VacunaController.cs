@@ -32,7 +32,7 @@ namespace WebVeterinaria.Controllers
                     v.Date,
                     v.Weight,
                     v.Temperature,
-                    Tipo = v.TypeVacuna.Type
+                    v.TypeName
                 })
                 .ToListAsync();
 
@@ -53,7 +53,7 @@ namespace WebVeterinaria.Controllers
                     v.Date,
                     v.Weight,
                     v.Temperature,
-                    Tipo = v.TypeVacuna.Type,
+                    v.TypeName
                     Mascota = new
                     {
                         v.Mascota.IdMascota,
@@ -61,8 +61,6 @@ namespace WebVeterinaria.Controllers
                     }
                 })
                 .FirstOrDefaultAsync();
-
-            if (vacuna == null) return NotFound("Vacuna no encontrada");
 
             return Ok(vacuna);
         }
@@ -76,15 +74,11 @@ namespace WebVeterinaria.Controllers
             if (!mascotaExiste)
                 return BadRequest("La mascota no existe");
 
-            var tipoExiste = await _context.TypeVacunas
-                .AnyAsync(t => t.IdTypeVacuna == dto.TypeVacuna_FK);
-            if (!tipoExiste)
-                return BadRequest("El tipo de vacuna no existe");
 
             var vacuna = new Vacuna
             {
                 Mascota_FK = dto.Mascota_FK,
-                TypeVacuna_FK = dto.TypeVacuna_FK,
+                TypeName = dto.TypeName,
                 Date = dto.Date,
                 Weight = dto.Weight,
                 Temperature = dto.Temperature
@@ -106,7 +100,7 @@ namespace WebVeterinaria.Controllers
             if (vacuna == null) return NotFound("Vacuna no encontrada");
 
             vacuna.Mascota_FK = dto.Mascota_FK;
-            vacuna.TypeVacuna_FK = dto.TypeVacuna_FK;
+            vacuna.TypeName = dto.TypeName;
             vacuna.Date = dto.Date;
             vacuna.Weight = dto.Weight;
             vacuna.Temperature = dto.Temperature;
