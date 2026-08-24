@@ -10,11 +10,10 @@ namespace vet_domain.Models
     {
         public int IdVacuna { get; set; }
         public int Mascota_FK { get; set; }
-        public int TypeVacuna_FK { get; set; }
         public DateOnly Date { get; set; }
         public decimal? Weight { get; set; }
         public decimal? Temperature { get; set; }
         public Mascota Mascota { get; set; } = null!;
-        public TypeVacuna TypeVacuna { get; set; } = null!;
+        public string? TypeName { get; set; }
     }
 }
