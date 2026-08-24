@@ -73,8 +73,6 @@ namespace vet_data.Context
 
             modelBuilder.Entity<Vacuna>()
                 .Property(v => v.Mascota_FK).HasColumnName("Mascota_FK");
-            modelBuilder.Entity<Vacuna>()
-                .Property(v => v.TypeVacuna_FK).HasColumnName("TypeVacuna_FK");
 
             modelBuilder.Entity<Desparacitacion>()
                 .Property(d => d.Mascota_FK).HasColumnName("Mascota_FK");
@@ -115,11 +113,6 @@ namespace vet_data.Context
                 .HasOne(v => v.Mascota)
                 .WithMany(m => m.Vacunas)
                 .HasForeignKey(v => v.Mascota_FK);
-
-            modelBuilder.Entity<Vacuna>()
-                .HasOne(v => v.TypeVacuna)
-                .WithMany(tv => tv.Vacunas)
-                .HasForeignKey(v => v.TypeVacuna_FK);
 
             modelBuilder.Entity<Desparacitacion>()
                 .HasOne(d => d.Mascota)
