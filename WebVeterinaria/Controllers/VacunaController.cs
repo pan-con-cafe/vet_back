@@ -25,7 +25,6 @@ namespace WebVeterinaria.Controllers
         {
             var vacunas = await _context.Vacunas
                 .Where(v => v.Mascota_FK == mascotaId)
-                .Include(v => v.TypeVacuna)
                 .Select(v => new
                 {
                     v.IdVacuna,
@@ -45,7 +44,6 @@ namespace WebVeterinaria.Controllers
         {
             var vacuna = await _context.Vacunas
                 .Where(v => v.IdVacuna == id)
-                .Include(v => v.TypeVacuna)
                 .Include(v => v.Mascota)
                 .Select(v => new
                 {
