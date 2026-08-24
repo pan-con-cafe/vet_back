@@ -32,7 +32,7 @@ namespace WebVeterinaria.Controllers
                     v.Date,
                     v.Weight,
                     v.Temperature,
-                    v.TypeName
+                    v.TypeName,
                 })
                 .ToListAsync();
 
@@ -53,7 +53,7 @@ namespace WebVeterinaria.Controllers
                     v.Date,
                     v.Weight,
                     v.Temperature,
-                    v.TypeName
+                    v.TypeName,
                     Mascota = new
                     {
                         v.Mascota.IdMascota,
